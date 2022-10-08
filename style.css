@@ -1,0 +1,27 @@
+*{
+    font-size: 30px;
+}
+
+#red {
+color: rgb(220, 18, 18);
+}
+.about{
+color: pink;
+}
+.r1 {
+color: green;
+}
+.r2{
+color: blue;
+font-size: 30px;
+}
+.r3{
+color: yellow;
+text-align: center;
+}
+.r6{
+text-align: right;
+}
+.r9{
+border: solid 3px green;
+}
