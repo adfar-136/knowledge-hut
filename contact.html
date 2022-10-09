@@ -1,11 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        a{
+          font-size: 30px;
+        }
+        /* unvisted link */
+        a:link{
+          color: rgb(194, 141, 42);
+        }
+        /* visted link */
+        a:visited{
+          color: green;
+        }
 
-<form action="">
-<input list="browsers" name="browser" id="browser">
-
-<datalist id="browsers">
-    <option value="HTML">
-        <option value="CSS">
-        <option value="JS">
-        <option value="Python">
-</datalist>
-</form>
+        a:hover{
+          color: blue;
+        }
+        div {
+          height: 100px;
+          width : 100px;
+          background-color: red;
+        }
+        div:hover{
+          background-color: blue;
+        }
+        h1::before{
+          content: url(Images/nature.jpg);
+        }
+        h1::after{
+          content: " Hi ";
+        }
+      </style>
+    </head>
+    <body>
+        <a href="">Home</a>
+        <a href="">ABout</a>
+        <h1>Adfar Rashid</h1>
+    </body>
+</html>
