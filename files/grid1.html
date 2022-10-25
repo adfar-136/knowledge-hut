@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       .header{
+        grid-area: header;
+        background-color: red;
+       }
+      .sidebar{
+        grid-area: sidebar;
+        background-color: red;
+      }
+      .content{
+        grid-area: contentt;
+        background-color: red;
+      }
+      .footer{
+        grid-area: footer;
+        background-color: red;
+      }
+      .wrapper{
+        display: grid;
+        gap: 10px;
+        grid-template-areas: '... .... header'
+        'sidebar contentt contentt'
+        'footer footer footer' ;
+        background-color: rgb(236, 183, 183);
+       
+        border: solid 1px blue;
+      }
+     
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box header">Header</div>
+        <div class="box sidebar">Sidebar</div>
+        <div class="box content">Content</div>
+        <div class="box footer">Footer</div>
+    </div>
+</body>
+</html>

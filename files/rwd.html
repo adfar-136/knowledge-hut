@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .media{
+            background-color: #e2e2e2;
+            margin: 1%;
+            padding: 10px;
+            box-sizing: border-box;
+            color: green;
+        }
+        @media all and (max-width:600px) {
+            .media{
+                color: red;
+                font-size: 20px;
+                margin: 10px;
+            }
+        }
+        @media all and (max-width:800px) and (min-width:600px){
+            .media{
+                color: black;
+                width: 31%;
+            }
+        }
+        @media print {
+            .media{
+                color: rgb(236, 8, 8);
+                font: 500;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="media">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, accusantium hic, beatae blanditiis perferendis obcaecati fugiat provident eos dolore aperiam eius? Impedit, debitis. Placeat doloremque doloribus facilis natus aspernatur ea saepe officiis, odio enim cum.</div>
+    <div class="media">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At quisquam eos nemo nostrum sint dolorem quaerat accusamus consectetur, dicta perspiciatis provident saepe pariatur officiis cumque nisi maiores rem quibusdam id dolore nihil hic aspernatur harum inventore! Eum quaerat perspiciatis neque!</div>
+    <div class="media">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, labore rem error voluptatem, impedit natus quaerat placeat pariatur numquam nostrum eius. Quo laborum pariatur repudiandae facilis temporibus hic possimus, cum numquam quisquam, reiciendis ipsum consequuntur, voluptatem recusandae. Earum, cupiditate qui culpa error veritatis dolor hic tempore dignissimos corporis eos modi praesentium facilis reiciendis. Maiores placeat dicta laudantium eveniet error nihil tempora ea alias magnam vitae. Vel veritatis officiis quisquam excepturi cum dolorum quasi consectetur! Temporibus nesciunt non nemo? Mollitia libero, consectetur inventore vitae labore explicabo accusamus nostrum, veniam ut consequuntur nisi, perferendis aperiam iusto voluptates sequi beatae commodi earum laborum!</div>
+</body>
+</html>
