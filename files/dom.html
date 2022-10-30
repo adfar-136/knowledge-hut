@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .demo{
+            color:red;
+           }
+    </style>
+   
+    <title>Document Object Model</title>
+</head>
+<body>
+    
+    <p id="p1" class="p11">Adfar</p>
+    <p class="p11">Adfar2</p>
+    <div id="div1">
+xfghdfghdgfhdfg
+    </div>
+    <div>
+
+    </div>
+    <script>
+        //var a = document.getElementsByTagName("p");
+       // a[0].innerHTML="sfaf";
+        //a[1].innerHTML="sfaf";
+       
+       // console.log(a[0])
+
+       //const para = document.createElement("p")
+      // para.innerHTML = "My Name is Adfar"
+       //document.getElementById("div1").appendChild(para)
+
+       document.getElementById("div1").setAttribute("class","demo")
+       var a=document.querySelectorAll(".p11")
+       a[0].style.backgroundColor="red";
+     </script>
+</body>
+</html>

@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <style>
-        .flex-container{
-            display: flex;
-            
-            justify-content:space-between;
-            background-color: rgb(243, 157, 8);
-        }
-        .flex-container > div{
-            background-color: #fff;
-            margin: 10px;
-            padding: 10px;
-            font-size: 35px;
-        }
-    </style>
-    <title>Document</title>
-</head>
-<body>
-    <div class="flex-container">
-        <div style="flex-grow:1;">A</div>
-        <div style="flex-grow:2;">B</div>
-        <div style="flex-grow:3;">C</div>
-        <div style="flex-grow:4;">D</div>
-        <div style="flex-basis:100px;">A</div>
-        <div style=flex-basis:200px;>B</div>
-        <div style=flex-basis:100px;>C</div>
-        <div style=flex-basis:100px;>D</div>
-       
+      .flex-container {
+        display: flex;
 
+        justify-content: space-between;
+        background-color: rgb(243, 157, 8);
+      }
+      .flex-container > div {
+        background-color: #fff;
+        margin: 10px;
+        padding: 10px;
+        font-size: 35px;
+      }
+    </style>
+    <script>
+      var arr = [1, 2, 3, 4, 5, 6, 7, "adfar", false];
+      console.log(arr);
+      console.log(arr[7]);
+      var number = new Array();
+      number[3] = 12;
+      console.log(number);
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div style="flex-grow: 1">A</div>
+      <div style="flex-grow: 2">B</div>
+      <div style="flex-grow: 3">C</div>
+      <div style="flex-grow: 4">D</div>
+      <div style="flex-basis: 100px">A</div>
+      <div style="flex-basis: 200px">B</div>
+      <div style="flex-basis: 100px">C</div>
+      <div style="flex-basis: 100px">D</div>
     </div>
-</body>
+  </body>
 </html>
