@@ -1,0 +1,15 @@
+<body>
+    <h1>Hello Adfar</h1>
+    <button onclick="stop()">Stop</button>
+    <script>
+        var a = setTimeout(fun1,2000)
+        function fun1(){
+            var win1 = window.open()
+            win1.document.write("<h2>Welcome to JS")
+            setTimeout(function(){win1.close()},3000)    
+        }
+        function stop(){
+            clearTimeout(a)
+        }
+    </script>
+</body>

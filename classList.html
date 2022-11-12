@@ -1,0 +1,33 @@
+<html>
+    <head>
+       <style>
+        .myStyle{
+            background-color: blue;
+            padding: 20px;
+            border: 1px solid red;
+        }
+       </style>
+    </head>
+    <body>
+        <!-- <button onclick="myfunc1()">Remove</button>
+        <button onclick="myfunc()">Add</button> -->
+        <button onclick="myFunc2()">Toggle</button>
+        <div id="myDiv">
+            <p>I am a myDiv</p>
+        </div>
+        <script>
+            function myfunc(){
+                const list =document.getElementById("myDiv").classList;
+                list.add("myStyle")
+            }
+            function myfunc1(){
+                const list =document.getElementById("myDiv").classList;
+                list.remove("myStyle")
+            }
+            function myFunc2(){
+                const list =document.getElementById("myDiv").classList;
+                list.toggle("myStyle")
+            }
+        </script>
+    </body>
+</html>

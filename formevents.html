@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <form action="">
+        <label for="">First Name:</label>
+        <input type="text">
+        <input type="text">
+        <input type="submit" onclick="func(event)">
+    </form>
+
+        
+        <script>
+            function func(event){
+                console.log('Adfar')
+                event.preventDefault();
+            }
+            console.log(this)
+            function highlightInput(elm){
+                elm.style.background = "lightgreen"
+
+
+            }
+        </script>
+    </body>
+</html>

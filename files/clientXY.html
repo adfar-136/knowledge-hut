@@ -1,0 +1,17 @@
+<html>
+    <body>
+        
+        <h2 id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur incidunt tempore aspernatur eum vel cum iure eveniet ducimus, excepturi id, harum perspiciatis, quisquam et error earum adipisci natus qui. Deleniti eos eveniet voluptate, amet modi debitis culpa necessitatibus rerum assumenda, porro eum, blanditiis autem?</h2>
+        <p><strong>Tip:</strong> Try to click different places in the heading</p>
+        <p id="demo"></p>
+        <script>
+            document.getElementById("p1").addEventListener('mousemove',showCoords)
+            function showCoords(event){
+                var x = event.clientX;
+                var y = event.clientY;
+                var coords = "X coords : " + x + ",Y coords:" + y;
+                document.getElementById("demo").innerHTML=coords; 
+            }
+        </script>
+    </body>
+</html>

@@ -3,19 +3,18 @@
   <head>
     <script>
 
-       
-       console.log(a)
-      console.log(greet);
-      var a = 12;
-      var greet = ()=> {
-        console.log("good morning");
-      }
-      (function(x){
-        console.log(x)
-    }(7))
-
-
-
+      class hello{
+        constructor(){
+         let name;
+         console.log("Constructor called")
+        }
+        hello(){
+         console.log("Hello " + this.name)
+        }
+     } 
+     let a = new hello()
+     
+     
     </script>
     <style>
       .grid-container {
