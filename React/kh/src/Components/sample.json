@@ -1,0 +1,76 @@
+{
+  "status": "ok",
+  "totalResults": 7,
+  "articles": [
+    {
+      "source": { "id": "cbs-news", "name": "CBS News" },
+      "author": "Jonathan Vigliotti, Analisa Novak",
+      "title": "Mauna Loa volcano lava flow slows as it nears key Hawaii highway",
+      "description": "It is oozing at a speed of less than 50 yards per hour, meaning it takes about two hours to move the length of a football field.",
+      "url": "https://www.cbsnews.com/news/mauna-loa-volcano-lava-flow-slows-dki-highway/",
+      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2022/12/03/c344aa57-1a69-4b6b-aba1-d63ac0197dd7/thumbnail/1200x630/84c2bc3cd720dbb8c17734413c46b9e3/gettyimages-1245294704.jpg",
+      "publishedAt": "2022-12-03T14:33:47+00:00",
+      "content": "Lava flowing from Mauna Loa, the world's largest active volcano, has slowed considerably. It is now oozing at a speed of less than 50 yards per hour, meaning it takes about two hours to move the leng… [+2198 chars]"
+    },
+    {
+      "source": { "id": "bbc-sport", "name": "BBC Sport" },
+      "author": null,
+      "title": "Sutton's World Cup predictions for last-16 matches",
+      "description": "BBC Sport's football expert Chris Sutton gives his predictions for the final round of group games at the World Cup.",
+      "url": "http://www.bbc.co.uk/sport/football/63827341",
+      "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/3F1D/production/_127675161_chrissutton'spredictions.jpg",
+      "publishedAt": "2022-12-03T09:22:42.7177149Z",
+      "content": "<table><tr><th>Fifa World Cup</th></tr>\r\n<tr><td>Host nation: Qatar Dates: 20 November-18 December Coverage: Live on BBC TV, BBC iPlayer, BBC Radio 5 Live, BBC Radio Wales, BBC Radio Cymru, BBC Sound… [+8441 chars]"
+    },
+    {
+      "source": { "id": "usa-today", "name": "USA Today" },
+      "author": null,
+      "title": "USC's shocking loss to Utah in Pac-12 championship throws College Football Playoff into chaos",
+      "description": "USC's 47-24 loss brings late-in-the-day chaos to the playoff, setting up a comparison between the two-loss Trojans and No. 5 Ohio State.",
+      "url": "https://www.usatoday.com/story/sports/ncaaf/2022/12/03/ucss-loss-utah-pac-12-championship-upends-college-football/10823702002/",
+      "urlToImage": "https://www.gannett-cdn.com/presto/2022/12/03/USAT/17ce62f2-6523-4808-b18d-ad5bca8ef8e0-paul-utah.jpg?auto=webp&crop=3663,2060,x1,y146&format=pjpg&width=1200",
+      "publishedAt": "2022-12-03T05:07:59+00:00",
+      "content": "It all could’ve been so easy.\r\nNo. 4 Southern California could’ve avenged an earlier loss to No. 12 Utah by beating the Utes, claiming the Pac-12 championship and punching a ticket into the College F… [+3754 chars]"
+    },
+    {
+      "source": { "id": "le-monde", "name": "Le Monde" },
+      "author": "Anne Vidalie",
+      "title": "Dans le Far West des NFT, les histoires de gros sous du foot virtuel",
+      "description": "Cartes de footballeurs à collectionner, tournois en ligne, trophées et maillots dématérialisés, vidéos de buts mythiques... Le monde du ballon rond découvre, comme le monde de l’art, les joies et les tristesses des NFT.",
+      "url": "https://www.lemonde.fr/economie/article/2022/11/29/dans-le-far-west-des-nft-les-histoires-de-gros-sous-du-foot-virtuel_6152086_3234.html",
+      "urlToImage": "https://img.lemde.fr/2022/11/25/90/0/1890/1260/1440/960/60/0/15fb907_1669390927574-le-monde-foot-nft2.jpg",
+      "publishedAt": "2022-11-29T05:15:04Z",
+      "content": "Quand il était enfant, Cyril collectionnait les vignettes Panini, ces images de joueurs de foot échangées dans les cours de récré. « Jaimais les regarder, les toucher, tourner les pages des albums da… [+2506 chars]"
+    },
+    {
+      "source": { "id": "al-jazeera-english", "name": "Al Jazeera English" },
+      "author": "Natalie Alcoba",
+      "title": "In the neighbourhood of Argentina football star Lionel Messi",
+      "description": "Messi left La Bajada when he was 13, but he still lives here – in murals and the memories of residents.",
+      "url": "http://www.aljazeera.com/sports/2022/11/9/in-the-neighbourhood-of-argentinian-star-footballer-messi",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2022/11/Messi-bigmural.jpg?resize=1920%2C1440",
+      "publishedAt": "2022-11-09T08:31:52Z",
+      "content": "Rosario, Argentina Seventy-year-old Susana Araus can remember what her neighbourhood looked like in simpler times: Card games with friends, a cloud of squealing children running through the streets, … [+7072 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+      "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+      "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+      "publishedAt": "2020-04-27T07:20:43Z",
+      "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+    },
+    {
+      "source": { "id": "le-monde", "name": "Le Monde" },
+      "author": "Clémence Duneau",
+      "title": "Vidéo. Football : la VAR est-elle efficace ?",
+      "description": "Vidéo - L’arbitrage vidéo, qu’on appelle aussi VAR pour « video assistant referee », a été utilisé pour la première fois en Coupe du monde cette année.",
+      "url": "https://www.lemonde.fr/mondial-2018/video/2018/06/08/coupe-du-monde-2018-l-arbitrage-video-est-il-efficace_5311493_5193650.html",
+      "urlToImage": "https://img.lemde.fr/2021/06/18/0/248/1619/1078/1440/960/60/0/62a732b_192023398-924ff76-15084-db9835-du2pn.png",
+      "publishedAt": "2018-06-08T06:00:02Z",
+      "content": "Tout le monde se souvient du match de qualification à la Coupe du monde 2010 entre la France et lIrlande. Thierry Henry remet la balle à William Gallas, qui marque le but dégalisation, et la France e… [+484 chars]"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <style>
+            body{
+                background-color: skyblue;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+         <h1>Hobbies of <%=data.name%> are:</h1>
+         <ul>
+            <%data.hobbies.forEach((item)=>{
+                %><li><%=item%></li><%
+            })%>
+         </ul>
+    </body>
+    
+</html>

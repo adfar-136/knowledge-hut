@@ -1,0 +1,15 @@
+{
+  "name": "adfar",
+  "version": "1.0.0",
+  "description": "i am creating and learning express",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adfar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}
