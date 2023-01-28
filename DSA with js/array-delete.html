@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <script>
+          /*--  let data = [30,20,45,76,20,80]
+            console.log(data);
+            let position = 2
+            for(let i =position;i<data.length-1;i++){
+                data[i]=data[i+1]
+               
+            }
+            data.length=data.length-1
+            console.log(data);
+                 */
+                 
+            function removeEl(){
+                let data = [30,20,45,76,20,80]
+                console.log(data);
+                let position = document.getElementById("position").value;
+                position = parseInt(position)
+                for (let i = position;i<data.length-1;i++){
+                    data[i]=data[i+1]
+                }
+                data.length =data.length-1
+                console.log(data);
+            }
+        </script>
+        <input type="text" id="position" placeholder="Enter index to be deleted">
+        <button onclick="removeEl()">Remove Element</button>
+    </body>
+</html>

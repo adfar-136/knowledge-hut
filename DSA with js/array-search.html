@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <script>
+          /*  let data = [20,40,60,5,10,70,80,99]
+            let item = 99;
+            let index;
+          //  console.log(data.indexOf(70))
+           for(let i=0;i<=data.length-1;i++){
+                if(data[i]===item){
+                    index=i;
+                    break;
+                }
+            }
+            console.log(index) */
+            function searchElement(){
+                let data = [20,40,60,5,10,70,80,99]
+                let item = document.getElementById('searchEl').value
+                let index;
+                for (let i =0; i<=data.length-1;i++){
+                    if(data[i]===parseInt(item)){
+                        index=i;
+                        break;
+                    }
+                }
+                console.log(index)
+            }
+        </script>
+        <input type="text" id="searchEl" placeholder="Enter Value">
+        <button onclick="searchElement()">Search Element</button>
+    </body>
+</html>
