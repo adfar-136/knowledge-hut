@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+            let money = 100;
+            let totalApple = 0;
+            function buyApple(x){
+                if(x>0){
+                    console.log("i have ", x ,"Rs", totalApple)
+                    buyMore(x-10)
+                }
+                else {
+                    console.log("I dont have more Money to buy more apples", totalApple)
+                }
+            }
+            function buyMore(x){
+                totalApple++
+               buyApple(x-5)
+            }
+            buyApple(money)
+        </script>
+    </head>
+</html>

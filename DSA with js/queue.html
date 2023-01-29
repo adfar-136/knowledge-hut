@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script>
+            let queue = []
+            let currentSize = queue.length
+            function enqueue(newVal){
+                queue[currentSize] = newVal;
+                currentSize++
+                console.log(queue)
+            }
+           function dequeue(){
+            if(currentSize>0){
+                for(let i=0;i<queue.length;i++){
+                    queue[i]=queue[i+1]
+                    
+                }
+                currentSize--;
+                queue.length=currentSize
+                console.log(queue)
+            }
+            else{
+                alert("queue is already empty")
+            }
+           }
+        </script>
+    </head>
+</html>
